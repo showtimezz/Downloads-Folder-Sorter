@@ -28,7 +28,7 @@ class MyHandler(FileSystemEventHandler):
         
 
 
-
+#Path's should be absolute and without the last "/", for example "/home/Downloads", not "/home/Downloads/"
 folder_to_track = ''
 images_destination= ''
 music_destination = ''
