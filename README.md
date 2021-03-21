@@ -35,6 +35,11 @@ time
 ## How it works
 This program uses the python `datetime()` function in order to calculate the month for subdirectories. It does this once every time the program is initiated. To use this as a hands-off background process that initializes itself on start up, you should reboot your PC at least once a month. 
 
+
+## Using this program on Windows 
+Windows uses '\', while linux uses '/' in their paths and folder structures. In theory, changing evey instace of '/' to '\' should do the trick. However, this wasn't tested. 
+
+
 You could make this program a CRON job, or create a shell/bash script and add that to startup. 
 ## Contributing
 
