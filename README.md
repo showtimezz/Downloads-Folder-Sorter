@@ -21,6 +21,7 @@ variables located in the`main.py` file to match your system and needs.
 
 
 ```
+geckodriver
 Python 3.x
 pip
 watchdog
